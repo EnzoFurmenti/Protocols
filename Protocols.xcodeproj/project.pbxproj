@@ -13,6 +13,15 @@
 		9668B1AD1D44A0910070D8A6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9668B1AB1D44A0910070D8A6 /* Main.storyboard */; };
 		9668B1AF1D44A0910070D8A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9668B1AE1D44A0910070D8A6 /* Assets.xcassets */; };
 		9668B1B21D44A0910070D8A6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9668B1B01D44A0910070D8A6 /* LaunchScreen.storyboard */; };
+		96D87CAF1D4717F300E9B528 /* Human.m in Sources */ = {isa = PBXBuildFile; fileRef = 96D87CAE1D4717F300E9B528 /* Human.m */; };
+		96D87CB31D47187700E9B528 /* Runner.m in Sources */ = {isa = PBXBuildFile; fileRef = 96D87CB21D47187700E9B528 /* Runner.m */; };
+		96D87CB61D47188F00E9B528 /* Swimmer.m in Sources */ = {isa = PBXBuildFile; fileRef = 96D87CB51D47188F00E9B528 /* Swimmer.m */; };
+		96D87CB91D4718B800E9B528 /* Animal.m in Sources */ = {isa = PBXBuildFile; fileRef = 96D87CB81D4718B800E9B528 /* Animal.m */; };
+		96D87CBC1D4718CE00E9B528 /* Cat.m in Sources */ = {isa = PBXBuildFile; fileRef = 96D87CBB1D4718CE00E9B528 /* Cat.m */; };
+		96D87CBF1D4718E100E9B528 /* Dog.m in Sources */ = {isa = PBXBuildFile; fileRef = 96D87CBE1D4718E100E9B528 /* Dog.m */; };
+		96D87CC21D47190200E9B528 /* Kangaroo.m in Sources */ = {isa = PBXBuildFile; fileRef = 96D87CC11D47190200E9B528 /* Kangaroo.m */; };
+		96D87CC51D47287500E9B528 /* Jumper.m in Sources */ = {isa = PBXBuildFile; fileRef = 96D87CC41D47287500E9B528 /* Jumper.m */; };
+		96D87CC81D47315400E9B528 /* Lazybones.m in Sources */ = {isa = PBXBuildFile; fileRef = 96D87CC71D47315400E9B528 /* Lazybones.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +35,27 @@
 		9668B1AE1D44A0910070D8A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9668B1B11D44A0910070D8A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9668B1B31D44A0910070D8A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96D87CA91D450E5600E9B528 /* Jumpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Jumpers.h; sourceTree = "<group>"; };
+		96D87CAA1D45107000E9B528 /* Swimmers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Swimmers.h; sourceTree = "<group>"; };
+		96D87CAB1D45172A00E9B528 /* Runners.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Runners.h; sourceTree = "<group>"; };
+		96D87CAD1D4717F300E9B528 /* Human.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Human.h; sourceTree = "<group>"; };
+		96D87CAE1D4717F300E9B528 /* Human.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Human.m; sourceTree = "<group>"; };
+		96D87CB11D47187700E9B528 /* Runner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Runner.h; sourceTree = "<group>"; };
+		96D87CB21D47187700E9B528 /* Runner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Runner.m; sourceTree = "<group>"; };
+		96D87CB41D47188F00E9B528 /* Swimmer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Swimmer.h; sourceTree = "<group>"; };
+		96D87CB51D47188F00E9B528 /* Swimmer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Swimmer.m; sourceTree = "<group>"; };
+		96D87CB71D4718B800E9B528 /* Animal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Animal.h; sourceTree = "<group>"; };
+		96D87CB81D4718B800E9B528 /* Animal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Animal.m; sourceTree = "<group>"; };
+		96D87CBA1D4718CE00E9B528 /* Cat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cat.h; sourceTree = "<group>"; };
+		96D87CBB1D4718CE00E9B528 /* Cat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cat.m; sourceTree = "<group>"; };
+		96D87CBD1D4718E100E9B528 /* Dog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dog.h; sourceTree = "<group>"; };
+		96D87CBE1D4718E100E9B528 /* Dog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dog.m; sourceTree = "<group>"; };
+		96D87CC01D47190200E9B528 /* Kangaroo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Kangaroo.h; sourceTree = "<group>"; };
+		96D87CC11D47190200E9B528 /* Kangaroo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Kangaroo.m; sourceTree = "<group>"; };
+		96D87CC31D47287500E9B528 /* Jumper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Jumper.h; sourceTree = "<group>"; };
+		96D87CC41D47287500E9B528 /* Jumper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Jumper.m; sourceTree = "<group>"; };
+		96D87CC61D47315400E9B528 /* Lazybones.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Lazybones.h; sourceTree = "<group>"; };
+		96D87CC71D47315400E9B528 /* Lazybones.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Lazybones.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +90,24 @@
 			children = (
 				9668B1A51D44A0910070D8A6 /* AppDelegate.h */,
 				9668B1A61D44A0910070D8A6 /* AppDelegate.m */,
+				96D87CAD1D4717F300E9B528 /* Human.h */,
+				96D87CAE1D4717F300E9B528 /* Human.m */,
+				96D87CC31D47287500E9B528 /* Jumper.h */,
+				96D87CC41D47287500E9B528 /* Jumper.m */,
+				96D87CC61D47315400E9B528 /* Lazybones.h */,
+				96D87CC71D47315400E9B528 /* Lazybones.m */,
+				96D87CB11D47187700E9B528 /* Runner.h */,
+				96D87CB21D47187700E9B528 /* Runner.m */,
+				96D87CB41D47188F00E9B528 /* Swimmer.h */,
+				96D87CB51D47188F00E9B528 /* Swimmer.m */,
+				96D87CB71D4718B800E9B528 /* Animal.h */,
+				96D87CB81D4718B800E9B528 /* Animal.m */,
+				96D87CBA1D4718CE00E9B528 /* Cat.h */,
+				96D87CBB1D4718CE00E9B528 /* Cat.m */,
+				96D87CBD1D4718E100E9B528 /* Dog.h */,
+				96D87CBE1D4718E100E9B528 /* Dog.m */,
+				96D87CC01D47190200E9B528 /* Kangaroo.h */,
+				96D87CC11D47190200E9B528 /* Kangaroo.m */,
 				9668B1A81D44A0910070D8A6 /* ViewController.h */,
 				9668B1A91D44A0910070D8A6 /* ViewController.m */,
 				9668B1AB1D44A0910070D8A6 /* Main.storyboard */,
@@ -75,8 +123,19 @@
 			isa = PBXGroup;
 			children = (
 				9668B1A31D44A0910070D8A6 /* main.m */,
+				96D87CAC1D4717AF00E9B528 /* Protocols */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		96D87CAC1D4717AF00E9B528 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				96D87CAA1D45107000E9B528 /* Swimmers.h */,
+				96D87CAB1D45172A00E9B528 /* Runners.h */,
+				96D87CA91D450E5600E9B528 /* Jumpers.h */,
+			);
+			name = Protocols;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,9 +209,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96D87CBF1D4718E100E9B528 /* Dog.m in Sources */,
+				96D87CC81D47315400E9B528 /* Lazybones.m in Sources */,
+				96D87CBC1D4718CE00E9B528 /* Cat.m in Sources */,
 				9668B1AA1D44A0910070D8A6 /* ViewController.m in Sources */,
 				9668B1A71D44A0910070D8A6 /* AppDelegate.m in Sources */,
+				96D87CB61D47188F00E9B528 /* Swimmer.m in Sources */,
+				96D87CC21D47190200E9B528 /* Kangaroo.m in Sources */,
 				9668B1A41D44A0910070D8A6 /* main.m in Sources */,
+				96D87CC51D47287500E9B528 /* Jumper.m in Sources */,
+				96D87CB91D4718B800E9B528 /* Animal.m in Sources */,
+				96D87CAF1D4717F300E9B528 /* Human.m in Sources */,
+				96D87CB31D47187700E9B528 /* Runner.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -303,6 +371,7 @@
 				9668B1B81D44A0910070D8A6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
